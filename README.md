@@ -1,2 +1,2 @@
-# python
+# Python
 Repositório destinado a guardar exercícios em Python.
