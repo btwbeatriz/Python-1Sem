@@ -18,6 +18,70 @@ lista[3] = 'Tchau'
 print(lista)
 print(lista[3])
 
+#Criando e inicializando listas
+lista = ['frio', 123, 'fiap', True]
+
+nova_lista = ['frio', 123]
+
+lista.append(nova_lista)
+
+print(lista[0])
+print(lista[1])
+print(lista[4] [0])
+
+nova_lista.append('calor')
+print(nova_lista)
+
+print(len(lista))
+print(len(nova_lista))
+
+print(lista+nova_lista)
+
+print(lista*3)
+
+print('fiap' in lista)
+print('calor' in lista)
+print('calor' in nova_lista)
+
+
+numeros = [14, 44, 55, 67, 88, 10, 21, 5]
+
+print(min(numeros)) #min mostra o menor número da lista
+print(max(numeros)) #max mostra o maior número da lista
+print(sum(numeros)) #sum mostra o somatório da lista
+
+livros = ['Java', 'Python', 'SQL Server', 'iOS']
+
+livros.append('Android') #append adiciona o elemento no fim da lista
+print(livros)
+
+livros.insert(0, 'Oracle') #insert adiciona o elemento em x local na lista
+print(livros)
+
+livros.pop() #remove o último elemento da lista
+print(livros)
+
+livros.pop(1) #usando o indíce ele remove o respectivo elemento
+print(livros)
+
+livros.remove('SQL Server') #remove pelo nome do elemento
+print(livros)
+
+livros.reverse() #inverte a ordem da lista
+print(livros)
+
+livros.sort() #coloca em ordem crescente
+print(livros)
+
+numeros = [2, 5, 8, 7, 10, 2, 2, -5, 10]
+numeros.count(2) #mostra a quantidade de ocorrências do elemento na lista
+print(numeros.count(2))
+
+n = [1, 2, 3] 
+m = [4, 5, 6]
+n.extend(m) #extende uma lista à outra
+print(n)
+
 #Tuplas
 tupla = ()
 tupla = (123,)
